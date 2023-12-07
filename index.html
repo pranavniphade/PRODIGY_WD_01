@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #fca311;
+        }
+
+        #navbar {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: #211f1f;
+            padding: 10px;
+            text-align: center;
+            transition: background-color 0.5s;
+        }
+
+        #navbar a {
+            color: #fca311;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            display: inline-block;
+            transition: color 0.3s;
+        }
+
+        #navbar a:hover {
+            color: #45b1cc;
+        }
+
+        #section {
+            margin-top: 60px;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#Location">Location</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <div id="section">
+        <h1>PRODIGY INFOTECH</h1>
+        <h1>PRODIGY INFOTECH</h1>
+        <h1>PRODIGY INFOTECH</h1>
+        <h1>PRODIGY INFOTECH</h1>
+        <h1>PRODIGY INFOTECH</h1>
+        <h1>PRODIGY INFOTECH</h1>
+        <h1>PRODIGY INFOTECH</h1>
+        <h1>PRODIGY INFOTECH</h1>
+        <h1>PRODIGY INFOTECH</h1>
+        <h1>PRODIGY INFOTECH</h1>
+        <h1>PRODIGY INFOTECH</h1>
+        <h1>PRODIGY INFOTECH</h1>
+        <h1>PRODIGY INFOTECH</h1>
+        <h1>PRODIGY INFOTECH</h1>
+        <h1>PRODIGY INFOTECH</h1>
+        <h1>PRODIGY INFOTECH</h1>
+
+
+        <p>Pranav Niphade</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat corrupti quas obcaecati neque, nam eveniet atque nobis cumque odio iusto deleniti veritatis asperiores! Nobis earum ea doloremque! Maxime, est fugit?</p>
+    </div>
+
+    <script>
+        window.onscroll = function () {
+            var navbar = document.getElementById('navbar');
+            if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+                navbar.style.backgroundColor = "#fff";
+            } else {
+                navbar.style.backgroundColor = "##211f1f";
+            }
+        };
+    </script>
+
+</body>
+
+</html>
